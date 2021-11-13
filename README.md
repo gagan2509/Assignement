@@ -19,8 +19,21 @@ Reference Taken from : https://docs.microsoft.com/en-us/learn/modules/n-tier-arc
 
 Problem Statement2
 
+We need to write code that will query the meta data of an instance within AWS and provide a
+json formatted output.
+
 Refrence Link : https://docs.microsoft.com/en-us/azure/virtual-machines/windows/instance-metadata-service?tabs=windows
 
 Problem Statement3
+
+We have a nested object, we would like a function that you pass in the object and a key and get
+back the value. How this is implemented is up to you.
+Example Inputs
+object = {“a”:{“b”:{“c”:”d”}}}
+key = a/b/c
+value = d
+object = {“x”:{“y”:{“z”:”a”}}}
+key = x/y/z
+value = a
 
 Create a Recurssive Function to implement the logic.
