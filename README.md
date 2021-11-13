@@ -13,6 +13,8 @@ The application components can be scaled separately by adding resources to each 
 The application can be more resilient by adding load balancing to detect failed resources, and redirect requests to healthy systems.
 The application can be more secure by restricting network communication between tiers, and only allowing the access that is required
 
+Implementation for Infrastructure Components : Created 2 Child ARM Templates(VM Template, SQL Template) and one parent template which is using these two child templates.
+
 Reference Taken from : https://docs.microsoft.com/en-us/learn/modules/n-tier-architecture/
 
 Problem Statement2
